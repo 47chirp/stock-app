@@ -1,0 +1,1 @@
+This is the Stock Analysis App for Data Analytics II (Spring 2026).
