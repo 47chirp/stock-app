@@ -1,17 +1,29 @@
-# Virtual environment (managed by uv — don't upload to GitHub)
-.venv/
-
-# Python cache files
+# Python caches
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# uv project files (Streamlit Cloud uses requirements.txt instead)
-.python-version
-pyproject.toml
-uv.lock
+# Virtual environments
+.venv/
+venv/
+env/
 
-# Environment variables / secrets (uncomment if you add a .env file)
-# .env
+# Streamlit and local configuration
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
